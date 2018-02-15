@@ -1,5 +1,5 @@
 package com.rt.cloning;
-
+//Employee Class
 public class Employee implements Cloneable{
 	
 	int eid;
