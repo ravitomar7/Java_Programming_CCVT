@@ -57,7 +57,17 @@ public class Employee implements Cloneable{
 		
 		return temp;
 	}
-	
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		Employee temp=(Employee) obj;
+		if(this.getEid()==temp.getEid())
+			return true;
+		else 
+			return false;
+		
+//		return super.equals(obj);
+	}
 	
 	
 
