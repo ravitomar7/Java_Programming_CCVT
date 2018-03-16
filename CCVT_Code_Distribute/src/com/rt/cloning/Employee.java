@@ -1,5 +1,6 @@
 package com.rt.cloning;
 //Employee Class Changes done from diff acc now
+// THIS CODE IS NOW CHANGED
 public class Employee implements Cloneable{
 	
 	int eid;
