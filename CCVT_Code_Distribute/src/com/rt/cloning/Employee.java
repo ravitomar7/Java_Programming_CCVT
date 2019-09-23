@@ -5,7 +5,7 @@ public class Employee implements Cloneable{
 	int eid;
 	public Employee(int eid, String ename) {
 		super();
-		this.eid = eid;
+		this.eid = eid;//
 		this.ename = ename;
 	}
 	public int getEid() {
